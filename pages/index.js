@@ -4,7 +4,6 @@ import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 import AddFavourites from './components/AddFavourites';
 import RemoveFavourites from './components/RemoveFavourites';
-import Link from 'next/link';
 
 const Home = () => {
 	const [movies, setMovies] = useState([]);
