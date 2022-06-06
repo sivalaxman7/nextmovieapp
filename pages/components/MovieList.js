@@ -11,9 +11,11 @@ const MovieList = (props) => {
 				<div className='images'>
 					<img className='image' src={movie.Poster} alt='movie'/>
 					<div
-						onClick={() => props.handleFavouritesClick(movie)}
-					>
+						onClick={() => props.handleFavouritesClick(movie)}>
 						<FavouriteComponent />
+					</div>
+					<Link href={`/moviedetails/${movie.imdbID}`}><a>details</a></Link>
+					<div>
 					</div>
 				</div>
 			))}

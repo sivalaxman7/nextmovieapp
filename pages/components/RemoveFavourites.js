@@ -3,7 +3,7 @@ import React from 'react';
 const RemoveFavourites = () => {
 	return (
 		<>
-			<span >Remove from favourites</span>
+			<span>Remove from favourites</span>
 		</>
 	);
 };

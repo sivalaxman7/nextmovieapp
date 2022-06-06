@@ -22,17 +22,18 @@ body {
 .movie-list{
 	display: flex;
 	flex-direction: row;
+	text-align: center;
 }
 .center{
 	text-align: center;
 }
 .image{
 	display: inline-block;
-	height: 250px;
+	height: 220px;
 	width: 210px;
 }
 .images{
-	margin: 20px;
+	margin: 10px;
 }
 .input-bar{
 	border: none;
@@ -40,4 +41,27 @@ body {
     border-radius: 10px;
 	width: 50%;
 	height: 40px;
+}
+.container{
+	background-color:#ccc;
+	color: #141414;
+}
+.imagevar{
+	display: inline-block;
+	margin-top: 85px;
+	height: 410px;
+	width: 330px;
+	margin-bottom: 20px;
+}
+.imagediv{
+	text-align: center;
+}
+.varhtag{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+.textdiv{
+	text-align: center;
 }

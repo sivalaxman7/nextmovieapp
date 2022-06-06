@@ -4,7 +4,7 @@ import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 import AddFavourites from './components/AddFavourites';
 import RemoveFavourites from './components/RemoveFavourites';
-
+import Link from 'next/link';
 const Home = () => {
 	const [movies, setMovies] = useState([]);
 	const [favourites, setFavourites] = useState([]);
@@ -15,6 +15,7 @@ const Home = () => {
 
 		const response = await fetch(url);
 		const responseJson = await response.json();
+		console.log(responseJson)
 
 		if (responseJson.Search) {
 			setMovies(responseJson.Search);
