@@ -1,0 +1,26 @@
+body {
+	background: #141414;
+	color: #ffffff;
+}
+.movie-list{
+	display: flex;
+	flex-direction: row;
+}
+.center{
+	text-align: center;
+}
+.image{
+	display: inline-block;
+	height: 250px;
+	width: 210px;
+}
+.images{
+	margin: 20px;
+}
+.input-bar{
+	border: none;
+	border:solid 1px #ccc;
+    border-radius: 10px;
+	width: 50%;
+	height: 40px;
+}
